@@ -174,7 +174,7 @@ def sendEmail(to, content):
             speak("je vais bien, merci")
             speak("comment aler vous monsieur")
  
-        elif 'bien' in query or "sa va" in query:
+        elif 'bien' in query or "sa va" in query or "je vais bien" in query:
             speak("C'est bon de savoir que tu vas bien")
  
         elif "changer mon nom en" in query:
